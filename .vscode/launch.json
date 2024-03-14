@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Using Functions",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/using-functions/handlers.py",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "Using classes",
+            "type": "python",
+            "request": "launch",
+            "envFile": "${workspaceFolder}/.env",
+            "program": "${workspaceFolder}/oop/classes.py",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }
+    ]
+}
